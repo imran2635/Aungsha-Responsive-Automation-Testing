@@ -1,0 +1,32 @@
+{
+  "name": "aungsha-responsive-playwright-framework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-ready Playwright POM framework for Aungsha staging - responsive and cross-browser",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:chromium": "playwright test --project=chromium",
+    "test:chrome": "playwright test --project=chrome",
+    "test:edge": "playwright test --project=edge",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project=mobile-375 --project=mobile-390 --project=mobile-414 --project=mobile-android --project=mobile-iphone",
+    "test:tablet": "playwright test --project=tablet-768 --project=tablet-ipad",
+    "test:desktop": "playwright test --project=desktop-1366 --project=desktop-1920 --project=chromium --project=chrome --project=edge",
+    "test:responsive": "playwright test tests/responsive",
+    "test:links": "playwright test tests/validation/links.spec.js",
+    "test:images": "playwright test tests/validation/images.spec.js",
+    "test:homepage": "playwright test tests/homepage",
+    "test:public": "playwright test tests/public tests/homepage",
+    "test:auth": "playwright test tests/auth",
+    "test:dashboard": "playwright test tests/dashboard",
+    "report": "playwright show-report reports/html",
+    "codegen": "playwright codegen https://staging.aungsha.com/en"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "dotenv": "^16.4.7"
+  }
+}

@@ -1,0 +1,13 @@
+node_modules/
+.env
+reports/html/
+reports/test-results/
+test-results/
+playwright-report/
+blob-report/
+.auth/
+*.log
+# Keep committed summaries for GitHub (do not ignore):
+# reports/LATEST-RESULTS.md
+.DS_Store
+Thumbs.db
