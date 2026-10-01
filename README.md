@@ -6,6 +6,27 @@ Playwright **JavaScript** E2E (POM + OOP) for [staging.aungsha.com](https://stag
 
 ---
 
+## Latest results (1 Oct 2026 · 26.6m · all projects)
+
+| Passed | Failed | Flaky | Skipped | Total |
+|-------:|-------:|------:|--------:|------:|
+| **216** | **48** | 10 | 70 | 344 |
+
+| Browser | Fail | Viewport | Result |
+|---------|-----:|----------|--------|
+| Chromium | 4 | mobile 375 / 390 / Android | ✅ |
+| Chrome | 5 | mobile 414 | ⚠️ 1 flaky |
+| Edge | 4 | mobile iPhone | ❌ 1 |
+| Firefox | 6 | tablet 768 | ✅ |
+| WebKit | **24** | tablet iPad | ❌ 4 |
+| | | desktop 1366 / 1920 | ✅ |
+
+Details → [`reports/LATEST-RESULTS.md`](reports/LATEST-RESULTS.md) · Report → `npm.cmd run report`
+
+> Skips need `AUNGSHA_EMAIL` / `AUNGSHA_PASSWORD` in `.env`.
+
+---
+
 ## Setup
 
 ```powershell
