@@ -6,7 +6,7 @@ Playwright **JavaScript** E2E (POM + OOP) for [staging.aungsha.com](https://stag
 
 ---
 
-## Latest results (1 Oct 2026 · 26.6m · all projects)
+## Latest results
 
 | Passed | Failed | Flaky | Skipped | Total |
 |-------:|-------:|------:|--------:|------:|
